@@ -1,0 +1,17 @@
+.lion {
+  text-align: center;
+}
+
+.lion > pre {
+  font-size: 1.5em;
+}
+
+.main {
+  text-align: center;
+}
+
+.lion-say {
+  width  : 75vw;
+  height : 5vh;
+  font-size: 1.3em;
+}
