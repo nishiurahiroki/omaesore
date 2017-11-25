@@ -20,6 +20,7 @@ class App extends React.Component {
 
   saidLion(e) {
     this.setState({
+      cripComplete : false,
       lion : (
         <Lion
           heSaid={e.target.value}
@@ -44,7 +45,7 @@ class App extends React.Component {
     document.body.appendChild(cripElement)
     document.getSelection().selectAllChildren(cripElement)
 
-    this.setState({ 
+    this.setState({
       cripComplete : document.execCommand('copy')
     })
 
